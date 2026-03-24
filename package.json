@@ -10,7 +10,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node bin/cli.mjs --transport sse --port 8080",
+    "start": "node bin/cli.mjs --transport http --port 8080",
     "build": "tsc -build && node scripts/build-cli.js",
     "dev": "tsx watch scripts/start-server.ts",
     "test": "NODE_ENV=test vitest run",
